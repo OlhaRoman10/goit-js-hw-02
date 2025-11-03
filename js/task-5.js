@@ -5,6 +5,14 @@ function checkGrade(grade) {
     return "Unsatisfactory";
   }
 }
+function checkStorage(available, ordered) {
+  if (ordered > available) {
+    return "Not enough goods in stock!";
+  } else {
+    return "Order is processed, our manager will contact you";
+  }
+}
 
 console.log(checkGrade(40)); // Unsatisfactory
 console.log(checkGrade(75)); // Satisfactory
+console.log(checkStorage(40, 10)); 
