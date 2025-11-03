@@ -16,4 +16,4 @@ function checkStorage(available, ordered) {
 console.log(checkGrade(40)); // Unsatisfactory
 console.log(checkGrade(75)); // Satisfactory
 console.log(checkStorage(40, 10)); 
-console.log(checkStorage(5, 10)); 
+console.log(checkStorage(10, 20)); 
