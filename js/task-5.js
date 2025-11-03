@@ -17,9 +17,14 @@ function checkStorage(available, ordered) {
 const age = 13;
 let type = age >= 18 ? "Aduld" : "Child";
 
+const a = 5;
+const b = 10;
+let biggerNumber = a > b ? a : b;
+
 console.log(checkGrade(40)); // Unsatisfactory
 console.log(checkGrade(75)); // Satisfactory
 console.log(checkStorage(40, 10)); 
 console.log(checkStorage(10, 20)); 
 console.log(checkStorage(10, 0)); 
 console.log(type);
+console.log(biggerNumber);
