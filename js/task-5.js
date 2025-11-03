@@ -14,9 +14,12 @@ function checkStorage(available, ordered) {
     return "Order is processed, our manager will contact you";
   }
 }
+const age = 13;
+let type = age >= 18 ? "Aduld" : "Child";
 
 console.log(checkGrade(40)); // Unsatisfactory
 console.log(checkGrade(75)); // Satisfactory
 console.log(checkStorage(40, 10)); 
 console.log(checkStorage(10, 20)); 
 console.log(checkStorage(10, 0)); 
+console.log(type);
