@@ -38,4 +38,4 @@ console.log(checkStorage(10, 0));
 console.log(type);
 console.log(biggerNumber);
 console.log(getBiggerNumber(6, 9));
-console.log(checkPasswort(Kluiko));
+console.log(checkPasswort("Kluiko"));
