@@ -25,6 +25,11 @@ function getBiggerNumber(a, b) {
     return a > b ? a : b;
 }
 
+function checkPasswort(passwort) {
+    const correctPasswort = "Roman10";
+    return passwort === correctPasswort ? "Passwort is correct" : "Passwort is falsch";
+}
+
 console.log(checkGrade(40)); // Unsatisfactory
 console.log(checkGrade(75)); // Satisfactory
 console.log(checkStorage(40, 10)); 
@@ -33,3 +38,4 @@ console.log(checkStorage(10, 0));
 console.log(type);
 console.log(biggerNumber);
 console.log(getBiggerNumber(6, 9));
+console.log(checkPasswort(Kluiko));
