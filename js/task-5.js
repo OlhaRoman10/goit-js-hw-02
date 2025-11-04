@@ -30,6 +30,22 @@ function checkPasswort(passwort) {
     return passwort === correctPasswort ? "Passwort is correct" : "Passwort is falsch";
 }
 
+function getSubscriotion(type) {
+  switch (type) {
+    case "starter":
+      return 0;
+      break;
+    case "professional":
+      return 20;
+      break;
+    case "organization":
+      return 50;
+      break;
+    default:
+      return "Invalid subscription type";
+  }
+}
+
 console.log(checkGrade(40)); // Unsatisfactory
 console.log(checkGrade(75)); // Satisfactory
 console.log(checkStorage(40, 10)); 
@@ -39,3 +55,4 @@ console.log(type);
 console.log(biggerNumber);
 console.log(getBiggerNumber(6, 9));
 console.log(checkPasswort("Kluiko"));
+console.log(getSubscriotion(organization));
