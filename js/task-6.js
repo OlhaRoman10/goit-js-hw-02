@@ -10,14 +10,15 @@ function normalizeInput(input, to) {
   }
 }
 
-let clientCounter = 18;
-const maxClients = 25;
-
-while (clientCounter < maxClients) {
-  console.log(clientCounter);
-  clientCounter += 1;
+function countClient(clientCounter, maxClients) {
+    let counter = clientCounter; 
+    while (counter < maxClients) {
+        console.log(counter);
+        counter += 1;
+    }
 }
 
 
 console.log(getSubstring("Hello world", 3));
 console.log(normalizeInput("das IST SpAm", "upper"));
+console.log(countClient(18, 25));
