@@ -18,7 +18,16 @@ function countClient(clientCounter, maxClients) {
     }
 }
 
+function countNumber(numberCounter, maxNumber) {
+    let count = numberCounter; 
+    do {
+        console.log(`Count: ${count}`);
+	count += 1;
+    } while (count < maxNumber);
+   
+}
 
 console.log(getSubstring("Hello world", 3));
 console.log(normalizeInput("das IST SpAm", "upper"));
 console.log(countClient(18, 25));
+console.log(countNumber(5, 5));
