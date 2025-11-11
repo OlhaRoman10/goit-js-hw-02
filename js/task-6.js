@@ -23,7 +23,7 @@ function countNumber(numberCounter, maxNumber) {
     do {
         console.log(`Count: ${count}`);
 	count += 1;
-    } while (numberCounter < maxNumber);
+    } while (count < maxNumber);
    
 }
 
