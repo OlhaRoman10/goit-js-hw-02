@@ -27,7 +27,17 @@ function countNumber(numberCounter, maxNumber) {
    
 }
 
+function sumUpTo(number) {
+    let sum = 0;
+    for (let i = 0; i <= number; i+=1) {
+        sum += i;
+        
+    }
+    return sum;
+}
+
 console.log(getSubstring("Hello world", 3));
 console.log(normalizeInput("das IST SpAm", "upper"));
 console.log(countClient(18, 25));
 console.log(countNumber(6, 5));
+console.log(sumUpTo(5));
