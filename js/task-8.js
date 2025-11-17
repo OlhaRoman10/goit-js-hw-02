@@ -7,4 +7,4 @@ function findNumber(start, end, divisor) {
 }
 
 
-console.log(findNumber(2, 6, 5));
+console.log(findNumber(2, 16, 5));
