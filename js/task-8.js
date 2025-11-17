@@ -6,5 +6,5 @@ function findNumber(start, end, divisor) {
   }
 }
 
-findNumber(2, 6, 5);
-console.log("Log after exiting function");
+
+console.log(findNumber(2, 6, 5));
