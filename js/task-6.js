@@ -36,8 +36,24 @@ function sumUpTo(number) {
     return sum;
 }
 
+function findNumber(max, target) {
+	console.log("Log in the body of the function before the cycle");
+
+  for (let i = 5; i <= max; i += 1) {
+    console.log("Current counter value i:", i);
+
+    if (i === target) {
+      console.log(`Found the number $ {target}, interrupt the cycle`);
+			break;
+    }
+  }
+
+  console.log("Log in body function after cycle");
+}
+
 console.log(getSubstring("Hello world", 3));
 console.log(normalizeInput("das IST SpAm", "upper"));
 console.log(countClient(18, 25));
 console.log(countNumber(6, 5));
 console.log(sumUpTo(5));
+console.log(findNumber(20, 16));
