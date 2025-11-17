@@ -13,5 +13,5 @@ function findNumber(max, target) {
   console.log("Log in body function after cycle");
 }
 
-findNumber(10, 6);
+findNumber(20, 16);
 console.log("Log after exiting function");
